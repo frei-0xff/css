@@ -1,0 +1,32 @@
+@-moz-document domain("chess.com") {
+  .upgrade-to-remove-sidebar {
+    display: none;
+  }
+  .ad-upgrade-to-remove {
+    display: none;
+  }
+  .game-dialog .ad-container {
+   display: none;
+  }
+  #special-ads-sidebar {
+    display: none;
+  }
+  body.basic main {
+    padding-right: 30px;
+  }
+  .upgrade-sidebar {
+    display: none;
+  }
+  .go-premium{
+    display: none !important;
+  }
+  .upgrade-sidebar-tall{
+    display: none !important;
+  }
+  .adblock-message{
+    display: none !important;
+  }
+  .upgrade-container{
+    display: none !important;
+  }
+}
